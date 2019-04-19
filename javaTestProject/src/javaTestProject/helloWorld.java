@@ -11,8 +11,8 @@ public class helloWorld {
 
 		String hw = "Hello World, again";
 		String name = JOptionPane.showInputDialog("Please enter your name");
-		JOptionPane.showMessageDialog(null, "Welcome" + name);
-		System.out.println(hw);
+		JOptionPane.showMessageDialog(null, "Welcome " + name);
+		System.out.println(name);
 
 	}
 
